@@ -1,4 +1,4 @@
-#Download dataset
+#Download database
 
 filename <- "Project_Coursera_Getting.zip"
 
@@ -14,8 +14,6 @@ if (!file.exists("UCI HAR Dataset")) {
 }
 
 #Defining data frames
-
-
 feature <- read.table("UCI HAR Dataset/features.txt", col.names = c("n","functions"))
 activit <- read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("code", "activity"))
 subj_test <- read.table("UCI HAR Dataset/test/subject_test.txt", col.names = "subject")
@@ -28,7 +26,6 @@ y_train <- read.table("UCI HAR Dataset/train/y_train.txt", col.names = "code")
 
 
 # 1 - Merges the training and the test sets to create one data set.
-
 X <- rbind(x_train, x_test)
 Y <- rbind(y_train, y_test)
 Resume <- rbind(subj_train, subj_test)
