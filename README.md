@@ -4,7 +4,7 @@ Dataset
 Human Activity Recognition Using Smartphones
 
 Files
-The variables are described in a file called Code Book.md and in file run_analysis.R we have the 5 steps required in the course project’s:
+The variables are described in a file called CodeBook.md and in file run_analysis.R we have the 5 steps required in the course project’s:
 1 - Merges the training and the test sets to create one data set.
 2 - Extracts only the measurements on the mean and standard deviation for each measurement.
 3 - Uses descriptive activity names to name the activities in the data set
